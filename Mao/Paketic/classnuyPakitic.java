@@ -1,7 +1,9 @@
 package Paketic;
 
 public class classnuyPakitic {
-    public String sayHello(){
+    protected String sayHello(){
         return "Hello, world!";
     }
 }
+
+class childPaketic extends  classnuyPakitic{}
