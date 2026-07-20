@@ -6,4 +6,9 @@ public class classnuyPakitic {
     }
 }
 
-class childPaketic extends  classnuyPakitic{}
+class childPaketic extends  classnuyPakitic{
+    @Override
+    protected String sayHello(){
+        return "Reborn world!";
+    }
+}
